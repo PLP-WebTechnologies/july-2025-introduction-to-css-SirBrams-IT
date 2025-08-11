@@ -1,0 +1,81 @@
+/* Universal styling for spacing & font */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+#header {
+    background-color: #003366; /* Darker blue for uniqueness */
+    color: white;
+    padding: 14px;
+    text-align: center;
+    
+}
+
+.tagline {
+    font-style: italic;
+}
+
+body {
+    padding-bottom: 80px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    color: #0a7d2e; 
+}
+
+/* Card design */
+.card {
+    background-color: white;
+    border: 2px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.highlight {
+    border-color: #003366;
+    background-color: #eef5ff;
+}
+
+/* Table styling */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.styled-table th, 
+.styled-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.styled-table thead {
+    background-color: #003366;
+    color: white;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.styled-table tr:hover {
+    background-color: #e1f5e1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
